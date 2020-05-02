@@ -21,7 +21,7 @@ Route::resource('posts', 'PostsController');
 
 Route::get('/test', 'PlannerController@index');
 
-Route::get('/wishlist', 'PlannerController@wishList');
+Route::get('/wishlist', 'PlannerController@wishList')->name('wishlist');
 
 Route::get('/travel', 'PlannerController@travel');
 
