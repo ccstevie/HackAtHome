@@ -1,0 +1,13 @@
+.panels {
+    margin-top: 50px;
+}
+
+.square {
+    border-radius: 25px;
+    background: #73AD21;
+    padding: 20px;
+  }
+
+.square a {
+    color: white;
+}
